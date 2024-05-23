@@ -1,0 +1,1 @@
+SELECT * FROM `dbt-integration-424021.jaffle_shop.orders`
