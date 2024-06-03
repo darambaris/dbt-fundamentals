@@ -1,0 +1,12 @@
+version: 2
+
+# refer: source(source_name, table_name)
+sources:
+  - name: jaffle_shop 
+    schema: jaffle_shop
+    database: dbt-integration-424021
+    tables:
+      - name: customers
+      - name: orders
+      - name: payments 
+    

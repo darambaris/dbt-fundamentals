@@ -7,7 +7,7 @@ payments as (
 order_payments as (
     select
         order_id,
-        sum(parse_numeric(amount)) as amount
+        sum(amount) as amount
     from payments
     group by 1
 ),
